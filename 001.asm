@@ -9,7 +9,7 @@ global _main
 szTitle:
     db "SayHello",0
 szMsg: 
-    db "YK's NASM!", 0
+    db "YK's NASM！！！", 0
 SayHello:
     push 0                ;uType
     push dword szTitle    ;lpCaption
